@@ -107,10 +107,8 @@ if (isset($_POST['simpan'])) { //create
         }
 
         .form-control {
-            height: 35px;
-            /* Reduce the height of the input fields */
+            height: 35px;  
             padding: 5px 10px;
-            /* Adjust the padding */
         }
     </style>
 </head>
@@ -148,7 +146,6 @@ if (isset($_POST['simpan'])) { //create
                                 <label for="nama" class="form-label">Nama</label>
                                 <input type="text" class="form-control " id="nama" name="nama" value="<?php echo $nama ?>" placeholder="Nama Pasien...">
                             </div>
-                            <!-- Add other form fields for the first column here -->
                             <div class="mb-3 row">
                                 <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
                                 <div class="col-sm-10">
@@ -177,7 +174,6 @@ if (isset($_POST['simpan'])) { //create
                                 <label for="nomedik" class="form-label">Nomor Rekam Medis</label>
                                 <input type="text" class="form-control" id="nomedik" name="nomedik" value="<?php echo $nomedik ?>" placeholder="Nomor Rekam Medis...">
                             </div>
-                            <!-- Add other form fields for the second column here -->
                             <div class="mb-3 row">
                                 <label for="tgl_lahir" class="col-sm-2 col-form-label">Tanggal Lahir</label>
                                 <div class="col-sm-10">
